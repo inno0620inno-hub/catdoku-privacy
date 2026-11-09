@@ -12,18 +12,20 @@ h1{font-size:1.5rem}h2{font-size:1.15rem;margin-top:1.8em}hr{margin:2.5em 0}
 <body>
 
 <h1>CATDOKU 개인정보처리방침</h1>
-<p>시행일: 2026년 10월 1일</p>
+<p>시행일: 2026년 11월 10일</p>
 <p>gift4u(이하 "개발자")는 모바일 게임 <b>CATDOKU</b>(이하 "앱")를 제공하며, 이용자의 개인정보를 소중히 다룹니다. 이 방침은 앱이 어떤 정보를 다루는지 설명합니다.</p>
 
 <h2>1. 수집하는 정보</h2>
 <p>앱은 회원가입이나 로그인이 없으며, 개발자는 이용자의 이름, 이메일, 전화번호, 위치 등 개인 식별 정보를 직접 수집하지 않습니다.</p>
 <ul>
-<li><b>기기 내 저장 정보</b>: 스테이지 진행 상황, 점수, 설정(소리·언어 등)은 이용자의 기기에만 저장되며 개발자 서버로 전송되지 않습니다.</li>
+<li><b>기기 내 저장 정보</b>: 스테이지 진행 상황, 설정(소리·언어 등)은 이용자의 기기에만 저장되며 개발자 서버로 전송되지 않습니다.</li>
+<li><b>천재 랭킹(일일 순위) 정보</b>: 랭킹 기능을 위해 이용자가 정한 <b>닉네임</b>, 앱이 처음 실행될 때 무작위로 만든 <b>기기 식별자(앱 내부 ID)</b>, 그날 모은 <b>참치캔 수(점수)</b>가 개발자의 랭킹 서버(Supabase)로 전송·저장되며 다른 이용자의 순위표에 닉네임과 점수가 표시됩니다. 실명·이메일·전화번호·위치는 수집하지 않으므로 닉네임에 개인정보를 넣지 마세요.</li>
 <li><b>광고 관련 정보</b>: 앱은 Google AdMob 광고를 표시합니다. 이 과정에서 Google이 광고 ID(Advertising ID), IP 주소, 기기 정보, 앱 사용 정보 등을 수집·이용할 수 있습니다.</li>
 </ul>
 
 <h2>2. 정보의 이용 목적</h2>
 <ul>
+<li>천재 랭킹(일일 순위표) 제공 및 부정 점수 방지</li>
 <li>앱 내 배너 광고 및 보상형 광고(힌트 제공) 표시</li>
 <li>광고 성과 측정 및 부정 이용 방지 (Google에서 처리)</li>
 </ul>
@@ -32,6 +34,7 @@ h1{font-size:1.5rem}h2{font-size:1.15rem;margin-top:1.8em}hr{margin:2.5em 0}
 <p>앱은 다음 제3자 서비스를 사용합니다. 각 서비스는 자체 개인정보처리방침에 따라 정보를 처리합니다.</p>
 <ul>
 <li>Google AdMob / Google Mobile Ads SDK — <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+<li>Supabase (랭킹 서버, 데이터는 싱가포르 지역에 저장) — <a href="https://supabase.com/privacy">https://supabase.com/privacy</a></li>
 </ul>
 <p>Google의 광고 데이터 사용 방식은 <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a> 에서 확인할 수 있습니다.</p>
 
@@ -39,7 +42,7 @@ h1{font-size:1.5rem}h2{font-size:1.15rem;margin-top:1.8em}hr{margin:2.5em 0}
 <p>이용자는 Android 기기의 <b>설정 &gt; Google &gt; 광고</b>에서 광고 ID를 삭제하거나 맞춤 광고를 끌 수 있습니다.</p>
 
 <h2>5. 정보의 보관 및 파기</h2>
-<p>기기에 저장된 게임 데이터는 앱을 삭제하면 함께 삭제됩니다. 개발자는 별도로 이용자 정보를 서버에 보관하지 않습니다.</p>
+<p>기기에 저장된 게임 데이터는 앱을 삭제하면 함께 삭제됩니다. 랭킹 서버에 저장된 일일 랭킹 기록(닉네임·기기 식별자·점수)은 생성일로부터 30일이 지나면 삭제합니다. 그 이전에 삭제를 원하시면 아래 이메일로 앱 내 닉네임을 알려 주세요. 확인 후 삭제합니다.</p>
 
 <h2>6. 아동의 개인정보</h2>
 <p>앱은 만 13세 미만 아동을 주 대상으로 하지 않으며, 아동의 개인정보를 의도적으로 수집하지 않습니다.</p>
@@ -56,26 +59,29 @@ h1{font-size:1.5rem}h2{font-size:1.15rem;margin-top:1.8em}hr{margin:2.5em 0}
 <hr>
 
 <h1>CATDOKU Privacy Policy</h1>
-<p>Effective date: October 1, 2026</p>
+<p>Effective date: November 10, 2026</p>
 <p>gift4u ("we") provides the mobile game <b>CATDOKU</b> (the "App"). This policy explains what information the App handles.</p>
 
 <h2>1. Information We Collect</h2>
 <p>The App has no account or sign-in, and we do not directly collect personally identifying information such as your name, email address, phone number, or location.</p>
 <ul>
-<li><b>On-device data</b>: Your stage progress, scores and settings (sound, language, etc.) are stored only on your device and are not sent to our servers.</li>
+<li><b>On-device data</b>: Your stage progress and settings (sound, language, etc.) are stored only on your device and are not sent to our servers.</li>
+<li><b>Daily ranking ("Genius Ranking") data</b>: For the ranking feature, the <b>nickname</b> you choose, a <b>random app-generated device identifier</b> (created at first launch), and the <b>number of tuna cans (score)</b> you earned that day are sent to and stored on our ranking server (Supabase), and your nickname and score are shown to other players on the leaderboard. We do not collect your real name, email, phone number or location, so please do not put personal information in your nickname.</li>
 <li><b>Advertising data</b>: The App displays ads through Google AdMob. Google may collect and use your Advertising ID, IP address, device information and app usage information for this purpose.</li>
 </ul>
 
 <h2>2. How Information Is Used</h2>
 <ul>
+<li>Providing the daily leaderboard and preventing fake scores</li>
 <li>Showing banner ads and rewarded ads (used to get hints)</li>
 <li>Ad measurement and fraud prevention (handled by Google)</li>
 </ul>
 
 <h2>3. Third-Party Services</h2>
-<p>The App uses the following third-party service, which processes data under its own privacy policy:</p>
+<p>The App uses the following third-party services, which process data under their own privacy policies:</p>
 <ul>
 <li>Google AdMob / Google Mobile Ads SDK — <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+<li>Supabase (ranking server; data stored in the Singapore region) — <a href="https://supabase.com/privacy">https://supabase.com/privacy</a></li>
 </ul>
 <p>See how Google uses data from apps that use its services: <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a>.</p>
 
@@ -83,7 +89,7 @@ h1{font-size:1.5rem}h2{font-size:1.15rem;margin-top:1.8em}hr{margin:2.5em 0}
 <p>You can reset or delete your Advertising ID, or opt out of ad personalization, in your Android device under <b>Settings &gt; Google &gt; Ads</b>.</p>
 
 <h2>5. Retention and Deletion</h2>
-<p>Game data stored on your device is deleted when you uninstall the App. We do not keep user data on any server.</p>
+<p>Game data stored on your device is deleted when you uninstall the App. Daily ranking records on the ranking server (nickname, device identifier, score) are deleted 30 days after they are created. If you want them deleted sooner, email us your in-app nickname and we will delete them after verification.</p>
 
 <h2>6. Children's Privacy</h2>
 <p>The App is not directed to children under 13, and we do not knowingly collect personal information from children.</p>
